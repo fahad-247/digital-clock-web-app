@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock with Stopwatch & Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sky Digital Clock</h1>
+        </header>
+        
+        <!-- Clock Section -->
+        <div class="clock">
+            <div id="time" class="time"></div>
+            <div id="date" class="date"></div>
+        </div>
+
+        <!-- Alarm Section -->
+        <div class="alarm">
+            <h2>Set Alarm</h2>
+            <input type="time" id="alarmTime">
+            <button id="setAlarmBtn">Set Alarm</button>
+            <div id="alarmStatus"></div>
+        </div>
+
+        <!-- Stopwatch Section -->
+        <div class="stopwatch">
+            <h2>Stopwatch</h2>
+            <div id="stopwatchTime">00:00:00</div>
+            <button id="startStopwatchBtn">Start</button>
+            <button id="resetStopwatchBtn">Reset</button>
+        </div>
+
+        <!-- Timer Section -->
+        <div class="timer">
+            <h2>Timer</h2>
+            <input type="number" id="timerMinutes" placeholder="Minutes" min="0">
+            <button id="startTimerBtn">Start Timer</button>
+            <div id="timerDisplay">00:00</div>
+        </div>
+
+        <!-- Focus Section -->
+        <div class="focus">
+            <h2>Focus Timer</h2>
+            <input type="number" id="focusMinutes" placeholder="Minutes" min="0">
+            <button id="startFocusBtn">Start Focus</button>
+            <div id="focusDisplay">00:00</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
