@@ -21,5 +21,5 @@ A digital clock with features like alarm, stopwatch, timer, and focus timer buil
 - Adjust settings and start the corresponding timer by clicking the buttons.
 
 ## Live Demo:
-You can check out the live demo at [https://fahad-247.github.io/digital-clock-web-app/](https://muzamal-478.github.io/digital-clock-web-app/).
+You can check out the live demo at: [ live demo](https://muzamal-478.github.io/digital-clock-web-app/).
 
